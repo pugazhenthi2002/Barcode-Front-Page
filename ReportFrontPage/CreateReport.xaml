@@ -1,0 +1,29 @@
+﻿<Window x:Class="ReportFrontPage.CreateReport"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:ReportFrontPage"
+		mc:Ignorable="d"
+		Title="CreateReport"
+		Height="229.512"
+		Width="453.659">
+	<StackPanel HorizontalAlignment="Center">
+		<Label>
+			<StackPanel>
+				<TextBlock>Report Name</TextBlock>
+				<TextBox Name="reportNameTextBox" />
+			</StackPanel>
+		</Label>
+		<Label>
+			<StackPanel>
+				<TextBlock>Report Count</TextBlock>
+				<TextBox Name="reportCountTextBox" />
+			</StackPanel>
+		</Label>
+
+		<Button Content="Submit"
+				HorizontalAlignment="Center"
+				Click="Button_Click" />
+	</StackPanel>
+</Window>

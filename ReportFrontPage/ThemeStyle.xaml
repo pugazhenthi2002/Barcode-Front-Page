@@ -1,0 +1,27 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<Color x:Key="Primary">#1E0342</Color>
+	<Color x:Key="Secondary">#E1F7F5</Color>
+	<Color x:Key="ReportUnderReviewStatusNormal">#52b788</Color>
+	<Color x:Key="ReportUnderReviewStatusHover">#1b4332</Color>
+	<Color x:Key="ReportReviewStatusNormal">#ca6702</Color>
+	<Color x:Key="ReportReviewStatusHover">#ae2012</Color>
+
+	<SolidColorBrush x:Key="PrimaryBrush"
+					 Color="{DynamicResource Primary}" />
+
+	<SolidColorBrush x:Key="SecondaryBrush"
+					 Color="{DynamicResource Secondary}" />
+
+	<SolidColorBrush x:Key="UnderReviewStatusBrushNormal"
+					 Color="{DynamicResource ReportUnderReviewStatusNormal}" />
+
+	<SolidColorBrush x:Key="UnderReviewStatusBrushHover"
+					 Color="{DynamicResource ReportUnderReviewStatusHover}" />
+
+	<SolidColorBrush x:Key="ReviewStatusBrushNormal"
+					 Color="{DynamicResource ReportReviewStatusNormal}" />
+
+	<SolidColorBrush x:Key="ReviewStatusBrushHover"
+					 Color="{DynamicResource ReportReviewStatusHover}" />
+</ResourceDictionary>
